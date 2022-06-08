@@ -19,7 +19,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
         integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/a73534e724.js" crossorigin="anonymous"></script>
-
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("xX2KpsUNcHetQhGvJ");
+        });
+    </script>
 </head>
 
 <body>
@@ -36,11 +40,9 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list"
-                            viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -66,26 +68,32 @@
         </div>
     </div>
 
-    <!-- slider -->
-    <div class="row slider">
-        <div class="col-10 mx-auto">
-            <div class="row">
-                <section class="col-md-4 slider-image">
-                    <img src="./assets/image/me.png" alt="">
-                </section>
-                <section class="col-md-8">
-                    <p class="name">I'm Stefan</p>
-                    <h3 class="job">Full Stack Developer</h3>
-                    <h3 class="location">In United Kingdom</h3>
-                    <p class="description">I'm developer focused on creating user friendly Website and passionate about
-                        building excellent software.</p>
-                </section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
+
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
+                            placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
             </div>
         </div>
-    </div>
-    <!-- slider -->
+    </section>
 
-
+  
     <!-- Footer -->
     <div class="row footer">
         <a href="index.html"> created by <span>Stefan cucuta</span></a>
@@ -96,9 +104,7 @@
 
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 
