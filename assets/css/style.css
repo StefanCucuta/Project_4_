@@ -9,7 +9,7 @@
     --roboto: 'Roboto', sans-serif;
 }
 
-h3, h4, h2, p {
+h3, h4, h2, h5, p {
     color: #ffffff;
 }
 
@@ -51,6 +51,7 @@ body {
     background-color: rgba(0, 0, 0, 0.856);
 
 }
+
 
 
 .slider-image img {
@@ -283,3 +284,16 @@ table {
     margin-bottom: 30px;
 }
 
+.center-form {
+    text-align: center;
+
+}
+
+ .repo-list ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.text-center {
+    padding-bottom: 40px;
+}
