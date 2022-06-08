@@ -58,10 +58,9 @@ body {
 
 .slider-image img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 0%;
     overflow: hidden;
     border: 10px solid #fff;
-    transform: rotate(5deg);
 }
 
 .slider {
