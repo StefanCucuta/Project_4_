@@ -1,4 +1,4 @@
-function sendMail(contactForm) {
+function sendEmail(contactForm) {
     emailjs.send("CVpage","template_p5z68b6", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
@@ -12,5 +12,4 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    return false;  // To block from loading a new page
 }

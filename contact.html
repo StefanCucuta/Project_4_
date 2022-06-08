@@ -19,10 +19,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
         integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/a73534e724.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
     <script type="text/javascript">
         (function () {
             emailjs.init("xX2KpsUNcHetQhGvJ");
-        });
+        })();
     </script>
 </head>
 
@@ -40,9 +42,11 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -75,7 +79,7 @@
                 <h5 class="uppercase text-center">Let's work together!</h5>
 
                 <div class="center-form">
-                    <form onsubmit="return sendMail(this);">
+                    <form onsubmit="return sendEmail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                             required />
@@ -93,14 +97,30 @@
         </div>
     </section>
 
-  
-    <!-- Footer -->
-    <div class="row footer">
-        <a href="index.html"> created by <span>Stefan cucuta</span></a>
-    </div>
-    <!-- Footer -->>
 
-    </div>
+    <footer class="text-center text-lg-start" style="background-color: black;">
+        <div class="container d-flex justify-content-center py-0">
+            <button type="button" class="btn " style="background-color: black;">
+                <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="btn " style="background-color: black;">
+                <i class="fab fa-youtube"></i>
+            </button>
+            <button type="button" class="btn " style="background-color: black;">
+                <i class="fab fa-instagram"></i>
+            </button>
+            <button type="button" class="btn" style="background-color: black;">
+                <i class="fab fa-twitter"></i>
+            </button>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
     <!-- Bootstrap Bundle with Popper -->
