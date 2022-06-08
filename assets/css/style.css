@@ -109,6 +109,7 @@ body {
     width: 70%;
     border-radius: 5%;
     overflow: hidden;
+    margin-left: 50px;
 }
 
 .a-name {
@@ -138,6 +139,8 @@ table {
 .p-i {
     font-family: var(--roboto);
     color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -184,4 +187,5 @@ table {
 
 .row {
     width: auto;
+    margin-bottom: 30px;
 }
