@@ -74,3 +74,110 @@ The website is designed to be consistent, intuitive and learnable.
 - Information architecture
   - The content is organised and prioritised by importance from top to bottom and left to right.
   - The information is structured mostly in nested lists.
+  ## Skeleton
+### Wireframes
+- Landing page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/1mobile-home.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/1desktop-home.png)
+- Our Cars page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/2mobile-aboutus.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/2desktop-aboutus.png)
+- Manage Booking page:[mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/3mobile-signup.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/3desktop-signup.png)
+- Structure : [Structure](https://StefanCucuta.github.io/project_1_/docs/wireframes/Structure.png)
+
+## Testing 
+
+### Functionality Testing
+
+
+### Performance Test
+  ![Chrome Lighthouse](https://StefanCucuta.github.io/project_1_/docs/lighthouse.png)
+  
+  Performance, accessibility and good practices has been tested on Google Lighthouse .
+### Validator testing
+
+- HTML
+  
+  - Two warnings (section lacks heading ) - not needed when passing through the official [w3c html validator](https://validator.w3.org/).
+
+- CSS
+  - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
+
+### Accessibility
+Accessibility was tested with both Chrome Lighthouse and [a11y contrast checker](https://color.a11y.com/) and no issues were found.
+
+### Compatibility
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+### Deployment
+
+- ### Git Hub Pages
+  
+The project was deployed to GitHub Pages using the following steps:
+
+1 Log in to GitHub and locate the[ project_1_](https://stefancucuta.github.io/project_1_/)
+
+2 At the top of the Repository, locate and click the "Settings" Button on the menu
+
+3 Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4 Under "Source", click the dropdown called "None" and select "main" branch.
+
+5 The page will automatically refresh.
+
+6 Scroll back down through the page to locate the now published [Project_1_](https://stefancucuta.github.io/project_1_/) in the "GitHub Pages" section.
+
+To run localy:
+
+1 Log in to GitHub and click on repository to download ([Project_1_](https://stefancucuta.github.io/project_1_/))
+
+2 select `Code` and click Download the ZIP file.
+
+3 after download you can extract the file and use it in your local environment 
+
+### Credits
+
+   #### Content
+   - The text for the Home page was taken from Wikipedia Article 
+   - The icons in the footer were taken from [Font Awesome]
+  #### Media 
+  - [Pexels.com](https://www.pexels.com/) for all photos
+  - [Wireframes](https://balsamiq.cloud/) for all Wireframes
+  - [Shutterstock.com](https://www.shutterstock.com/) for all videos
+  
+  #### Code
+  - [SpaceX](https://https://www.spacex.com/)  by SpaceX as a general resource.
+  - [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)  by Code Institute as a general resource.
+  - [W3Schools](https://www.w3schools.com/) as a general resource.
+  
+### Technology
+
+#### HTML5
+- As a structure language.
+
+#### BOOTSTRAP
+- As a responsive and mobile-first.
+
+#### CSS
+- As a style language.
+
+#### Font Awesome
+- As an icon library for a social links.
+
+#### EmailJS
+-linking the contact form to my personal email
+
+#### JavaScript
+-making the conection posible between github and my Portofolio
+
+#### Google fonts
+- As a font resource.
+
+#### GitHub
+- As a software hosting platform to keep project in a remote location.
+
+#### Gitpod
+- As a development hosting platform.
+
+#### Wireframe.cc
+- As a wireframing tool.
+  
