@@ -4,9 +4,9 @@ This website is designated for anyone who wants to have a Portofolio website.
 
 Users of the website will be able to create a simple and strong Portofolio website.
 
-[Live DEMO](https://stefancucuta.github.io/Project_4_/)
+![](https://stefancucuta.github.io/Project_4_/docs/preview.png)
 
-[![My Portofolio](#)](https://stefancucuta.github.io/Project_4_/docs/preview.png)
+[Live DEMO](https://stefancucuta.github.io/Project_4_/)
 
 ## Table of contents
   - [Strategy](#strategy)
