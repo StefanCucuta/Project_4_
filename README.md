@@ -1,12 +1,12 @@
 # My portofolio
 
-This website is designated for anyone who is over 18 years old and wants to have an unforgetafull life experience.
+This website is designated for anyone who wants to have a Portofolio website.
 
-Users of the website will be able to find that we offer the best services and also that we have the last generation tehnology available for you.
+Users of the website will be able to create a simple and strong Portofolio website.
 
-[Live DEMO](#)
+[Live DEMO](https://StefanCucuta.github.io/project_4_/docs/wireframes/preview.png)
 
-[![My Portofolio](#)](https://stefancucuta.github.io/project_1_/)
+[![My Portofolio](#)](https://stefancucuta.github.io/project_4_/)
 
 ## Table of contents
   - [Strategy](#strategy)
@@ -76,10 +76,8 @@ The website is designed to be consistent, intuitive and learnable.
   - The information is structured mostly in nested lists.
   ## Skeleton
 ### Wireframes
-- Landing page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/1mobile-home.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/1desktop-home.png)
-- Our Cars page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/2mobile-aboutus.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/2desktop-aboutus.png)
-- Manage Booking page:[mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/3mobile-signup.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/3desktop-signup.png)
-- Structure : [Structure](https://StefanCucuta.github.io/project_1_/docs/wireframes/Structure.png)
+- Landing page: [mobile](https://StefanCucuta.github.io/project_4_/docs/wireframes/mobile-home.jpeg), [desktop](https://StefanCucuta.github.io/project_4_/docs/wireframes/desktop-home.jpeg)
+- Structure : [Structure](https://StefanCucuta.github.io/project_4_/docs/wireframes/structure.jpeg)
 
 ## Testing 
 
@@ -87,7 +85,7 @@ The website is designed to be consistent, intuitive and learnable.
 
 
 ### Performance Test
-  ![Chrome Lighthouse](https://StefanCucuta.github.io/project_1_/docs/lighthouse.png)
+  ![Chrome Lighthouse](https://StefanCucuta.github.io/Project_4_/docs/lighthouse.png)
   
   Performance, accessibility and good practices has been tested on Google Lighthouse .
 ### Validator testing
@@ -114,7 +112,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   
 The project was deployed to GitHub Pages using the following steps:
 
-1 Log in to GitHub and locate the[ project_1_](https://stefancucuta.github.io/project_1_/)
+1 Log in to GitHub and locate the[ project_4_](https://stefancucuta.github.io/project_4_/)
 
 2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
@@ -124,11 +122,11 @@ The project was deployed to GitHub Pages using the following steps:
 
 5 The page will automatically refresh.
 
-6 Scroll back down through the page to locate the now published [Project_1_](https://stefancucuta.github.io/project_1_/) in the "GitHub Pages" section.
+6 Scroll back down through the page to locate the now published [Project_4_](https://stefancucuta.github.io/project_4_/) in the "GitHub Pages" section.
 
 To run localy:
 
-1 Log in to GitHub and click on repository to download ([Project_1_](https://stefancucuta.github.io/project_1_/))
+1 Log in to GitHub and click on repository to download ([Project_4_](https://stefancucuta.github.io/project_4_/))
 
 2 select `Code` and click Download the ZIP file.
 
@@ -140,13 +138,10 @@ To run localy:
    - The text for the Home page was taken from Wikipedia Article 
    - The icons in the footer were taken from [Font Awesome]
   #### Media 
-  - [Pexels.com](https://www.pexels.com/) for all photos
   - [Wireframes](https://balsamiq.cloud/) for all Wireframes
-  - [Shutterstock.com](https://www.shutterstock.com/) for all videos
   
   #### Code
-  - [SpaceX](https://https://www.spacex.com/)  by SpaceX as a general resource.
-  - [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)  by Code Institute as a general resource.
+  - [Portofolio Project] by Code Institute as a general resource.
   - [W3Schools](https://www.w3schools.com/) as a general resource.
   
 ### Technology
