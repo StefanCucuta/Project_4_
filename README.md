@@ -112,7 +112,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   
 The project was deployed to GitHub Pages using the following steps:
 
-1 Log in to GitHub and locate the[ project_4_](https://stefancucuta.github.io/Project_4_/)
+1 Log in to GitHub and locate the[ project_4_](https://github.com/StefanCucuta/Project_4_)
 
 2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
@@ -122,11 +122,11 @@ The project was deployed to GitHub Pages using the following steps:
 
 5 The page will automatically refresh.
 
-6 Scroll back down through the page to locate the now published [Project_4_](https://stefancucuta.github.io/Project_4_/) in the "GitHub Pages" section.
+6 Scroll back down through the page to locate the now published [Project_4_](https://github.com/StefanCucuta/Project_4_) in the "GitHub Pages" section.
 
 To run localy:
 
-1 Log in to GitHub and click on repository to download ([Project_4_](https://stefancucuta.github.io/Project_4_/))
+1 Log in to GitHub and click on repository to download ([Project_4_](https://github.com/StefanCucuta/Project_4_))
 
 2 select `Code` and click Download the ZIP file.
 
