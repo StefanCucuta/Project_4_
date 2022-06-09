@@ -4,9 +4,9 @@ This website is designated for anyone who wants to have a Portofolio website.
 
 Users of the website will be able to create a simple and strong Portofolio website.
 
-[Live DEMO](https://stefancucuta.github.io/project_4_/)
+[Live DEMO](https://stefancucuta.github.io/Project_4_/)
 
-[![My Portofolio](#)](https://StefanCucuta.github.io/Project_4_/docs/preview.png)
+[![My Portofolio](#)](https://stefancucuta.github.io/Project_4_/docs/preview.png)
 
 ## Table of contents
   - [Strategy](#strategy)
@@ -76,8 +76,8 @@ The website is designed to be consistent, intuitive and learnable.
   - The information is structured mostly in nested lists.
   ## Skeleton
 ### Wireframes
-- Landing page: [mobile](https://StefanCucuta.github.io/project_4_/docs/wireframes/mobile-home.jpeg), [desktop](https://StefanCucuta.github.io/project_4_/docs/wireframes/desktop-home.jpeg)
-- Structure : [Structure](https://StefanCucuta.github.io/project_4_/docs/wireframes/structure.jpeg)
+- Landing page: [mobile](https://stefancucuta.github.io/Project_4_/docs/wireframes/mobile-home.jpeg), [desktop](https://stefancucuta.github.io/Project_4_/docs/wireframes/desktop-home.jpeg)
+- Structure : [Structure](https://stefancucuta.github.io/Project_4_/docs/wireframes/structure.jpeg)
 
 ## Testing 
 
@@ -85,7 +85,7 @@ The website is designed to be consistent, intuitive and learnable.
 
 
 ### Performance Test
-  ![Chrome Lighthouse](https://StefanCucuta.github.io/Project_4_/docs/lighthouse.png)
+  ![Chrome Lighthouse](https://stefancucuta.github.io/Project_4_/docs/lighthouse.png)
   
   Performance, accessibility and good practices has been tested on Google Lighthouse .
 ### Validator testing
@@ -112,7 +112,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   
 The project was deployed to GitHub Pages using the following steps:
 
-1 Log in to GitHub and locate the[ project_4_](https://stefancucuta.github.io/project_4_/)
+1 Log in to GitHub and locate the[ project_4_](https://stefancucuta.github.io/Project_4_/)
 
 2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
@@ -122,11 +122,11 @@ The project was deployed to GitHub Pages using the following steps:
 
 5 The page will automatically refresh.
 
-6 Scroll back down through the page to locate the now published [Project_4_](https://stefancucuta.github.io/project_4_/) in the "GitHub Pages" section.
+6 Scroll back down through the page to locate the now published [Project_4_](https://stefancucuta.github.io/Project_4_/) in the "GitHub Pages" section.
 
 To run localy:
 
-1 Log in to GitHub and click on repository to download ([Project_4_](https://stefancucuta.github.io/project_4_/))
+1 Log in to GitHub and click on repository to download ([Project_4_](https://stefancucuta.github.io/Project_4_/))
 
 2 select `Code` and click Download the ZIP file.
 
